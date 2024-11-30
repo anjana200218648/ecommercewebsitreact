@@ -11,14 +11,18 @@ const Login = () => {
                 </div>
 
                 <form>
-                    <div>
+                    <div className='grid'>
                         <label>Email :   </label>
-                        <input type='email' placeholder='enter email'/>
+                        <div>
+                        <input type='email' placeholder='enter email' className='w-full h-full outline-none'/>
+                        </div>
                     </div>
 
                     <div>
                         <label>Password :   </label>
-                        <input type='password' placeholder='enter password'/>
+                       <div>
+                       <input type='password' placeholder='enter password' className='w-full h-full outline-none'/>
+                       </div>
                     </div>
 
                     <button>Login </button>
